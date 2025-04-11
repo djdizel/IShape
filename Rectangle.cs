@@ -25,11 +25,17 @@ namespace IShape
 
         public void Area()
         {
+            Console.WriteLine(Side1*Side2);
+        }
 
+        public void Perimeter()
+        {
+            Console.WriteLine(2*(Side1+Side2));
         }
 
         public override string ToString() 
         { 
+
         }
     }
 }
